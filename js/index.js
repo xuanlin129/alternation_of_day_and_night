@@ -12,3 +12,13 @@ themeToggle.addEventListener('change', () => {
   sun.classList.toggle('non-visible')
   moon.classList.toggle('non-visible')
 })
+
+let dotSmall = document.querySelector('.dot-s');
+let dotLarge = document.querySelector('.dot-l');
+document.addEventListener("mousemove", function (e) {
+
+  dotSmall.style.left = e.pageX + "px";
+  dotSmall.style.top = e.pageY - window.scrollY + "px";
+  dotLarge.style.left = e.pageX + "px";
+  dotLarge.style.top = e.pageY - window.scrollY + "px";
+});
