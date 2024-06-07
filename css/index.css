@@ -186,7 +186,7 @@ body {
 .clouds iconify-icon:nth-child(3) {
   top: 65%;
   left: 30%;
-  z-index: 999;
+  z-index: 20;
   animation: floating3 2s ease-in-out infinite;
 }
 
@@ -207,7 +207,7 @@ body {
   width: 50px;
   height: 50px;
   background: #61656d;
-  z-index: 1;
+  z-index: 999;
   transition: all .1s ease;
 }
 
@@ -215,6 +215,7 @@ body {
   width: 50px;
   height: 50px;
   background: #beccd3;
+  z-index: 998;
   transition: all .15s ease;
   transform: translate(50%, 50%);
 }
