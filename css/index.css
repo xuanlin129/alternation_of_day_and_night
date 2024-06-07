@@ -181,7 +181,7 @@ body {
 .clouds iconify-icon:nth-child(2) {
   top: 30%;
   right: -10%;
-  animation: floating2 2s ease-in-out infinite;
+  animation: floating2 2s ease-in-out 1s infinite;
 }
 .clouds iconify-icon:nth-child(3) {
   top: 65%;
