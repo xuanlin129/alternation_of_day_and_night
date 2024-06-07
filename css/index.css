@@ -235,15 +235,15 @@ body {
 @keyframes flashing {
   0% {
     filter: drop-shadow(0 0 5px #F1C40F);
-    transform: translateY(-5%);
+    transform: translateY(-10%);
   }
   50% {
     filter: drop-shadow(0 0 10px #F1C40F);
-    transform: translateY(5%);
+    transform: translateY(10%);
   }
   100% {
     filter: drop-shadow(0 0 5px #F1C40F);
-    transform: translateY(-5%);
+    transform: translateY(-10%);
   }
 }
 
@@ -252,7 +252,7 @@ body {
     transform: translate(0);
   }
   50% {
-    transform: translate(10%, 5%);
+    transform: translate(20%, 10%);
   }
   100% {
     transform: translate(0);
@@ -263,7 +263,7 @@ body {
     transform: translate(0);
   }
   50% {
-    transform: translate(10% , 5%);
+    transform: translate(20% , 10%);
   }
   100% {
     transform: translate(0);
@@ -274,7 +274,7 @@ body {
     transform: translate(0);
   }
   50% {
-    transform: translate(0, 5%);
+    transform: translate(0, 10%);
   }
   100% {
     transform: translate(0);
@@ -292,5 +292,53 @@ body {
   .dot-s,
   .dot-l {
     display: block
+  }
+  @keyframes flashing {
+    0% {
+      filter: drop-shadow(0 0 5px #F1C40F);
+      transform: translateY(-5%);
+    }
+    50% {
+      filter: drop-shadow(0 0 10px #F1C40F);
+      transform: translateY(5%);
+    }
+    100% {
+      filter: drop-shadow(0 0 5px #F1C40F);
+      transform: translateY(-5%);
+    }
+  }
+  
+  @keyframes floating1 {
+    0% {
+      transform: translate(0);
+    }
+    50% {
+      transform: translate(10%, 5%);
+    }
+    100% {
+      transform: translate(0);
+    }
+  }
+  @keyframes floating2 {
+    0% {
+      transform: translate(0);
+    }
+    50% {
+      transform: translate(10% , 5%);
+    }
+    100% {
+      transform: translate(0);
+    }
+  }
+  @keyframes floating3 {
+    0% {
+      transform: translate(0);
+    }
+    50% {
+      transform: translate(0, 5%);
+    }
+    100% {
+      transform: translate(0);
+    }
   }
 }
