@@ -181,13 +181,13 @@ body {
 .clouds iconify-icon:nth-child(2) {
   top: 30%;
   right: -10%;
-  animation: floating2 2s ease-in-out 1s infinite;
+  animation: floating2 2s ease-in-out 0.5s infinite;
 }
 .clouds iconify-icon:nth-child(3) {
   top: 65%;
   left: 30%;
   z-index: 20;
-  animation: floating3 2s ease-in-out infinite;
+  animation: floating3 2s ease-in-out 0.25s infinite;
 }
 
 .dot-s,
